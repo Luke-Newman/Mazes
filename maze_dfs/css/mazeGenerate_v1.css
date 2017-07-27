@@ -1,0 +1,53 @@
+body, html {
+    font-family: 'Orbitron', sans-serif;
+<!-- font-family: 'Julius Sans One', sans-serif; -->
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden; /** disable scroll bars */
+    display: block; /** No floating content on sides */
+    background-color: black;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2% 2% 5%;
+
+}
+
+.jumbotron {
+    max-height: 100px;
+}
+
+#maze_v1 {
+    width:100%;
+    height:95%;
+}
+
+#2mazeWrap {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#3mazeWrap {
+    position: absolute;
+    left: 50%;
+    width: 50%; height: 50%;
+}
+
+#1mazeWrap {
+    background-color:yellow;
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
